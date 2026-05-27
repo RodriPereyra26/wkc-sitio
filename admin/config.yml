@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: RodriPereyra26/wkc-sitio
+  branch: main
+
+media_folder: "src/assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "eventos"
+    label: "Eventos"
+    folder: "src/eventos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nombre", name: "nombre", widget: "string" }
+      - { label: "Fecha", name: "fecha", widget: "datetime" }
+      - { label: "Lugar", name: "lugar", widget: "string" }
+      - { label: "Descripción", name: "description", widget: "markdown" }
+
+  - name: "rankings"
+    label: "Rankings"
+    folder: "src/rankings"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Peleador", name: "peleador", widget: "string" }
+      - { label: "Categoría", name: "categoria", widget: "select", options: ["Ligero", "Medio", "Mediano", "Pesado"] }
+      - { label: "Récord", name: "record", widget: "string" }

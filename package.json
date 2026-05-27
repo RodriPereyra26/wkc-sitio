@@ -1,0 +1,25 @@
+{
+  "name": "wkc-sitio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriPereyra26/wkc-sitio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RodriPereyra26/wkc-sitio/issues"
+  },
+  "homepage": "https://github.com/RodriPereyra26/wkc-sitio#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}
