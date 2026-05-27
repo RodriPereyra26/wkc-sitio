@@ -2,7 +2,6 @@ backend:
   name: github
   repo: RodriPereyra26/wkc-sitio
   branch: main
-  auth_endpoint: /api/auth
 
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
