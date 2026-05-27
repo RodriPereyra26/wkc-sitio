@@ -2,12 +2,6 @@ backend:
   name: github
   repo: RodriPereyra26/wkc-sitio
   branch: main
-  api_root: https://api.github.com
-  authorize_endpoint: https://github.com/login/oauth/authorize
-  token_endpoint: https://netlify-cms-github-oauth-provider.herokuapp.com/auth
-  cms_label_prefix: netlify-cms/
-  req_headers:
-    Content-Type: application/json
 
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
@@ -23,13 +17,3 @@ collections:
       - { label: "Fecha", name: "fecha", widget: "datetime" }
       - { label: "Lugar", name: "lugar", widget: "string" }
       - { label: "Descripción", name: "body", widget: "markdown" }
-
-  - name: "rankings"
-    label: "Rankings"
-    folder: "src/rankings"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Peleador", name: "peleador", widget: "string" }
-      - { label: "Categoría", name: "categoria", widget: "select", options: ["Ligero", "Medio", "Mediano", "Pesado"] }
-      - { label: "Récord", name: "record", widget: "string" }
