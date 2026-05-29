@@ -44,34 +44,4 @@ permalink: /rankings/
   <div class="rank-row head">
     <span>Pos</span><span>Peleador</span><span>Categoría</span><span>Récord</span>
   </div>
-  <div class="rank-row">
-    <div class="rank-pos">1</div>
-    <div><div class="rank-name">Martín Silva</div><div class="rank-gym">Gym WKC Centro · Montevideo</div></div>
-    <div class="rank-cat">Medio (-70kg)</div>
-    <div class="rank-rec">14–2–0</div>
-  </div>
-  <div class="rank-row">
-    <div class="rank-pos">2</div>
-    <div><div class="rank-name">Diego Fernández</div><div class="rank-gym">Team Águila · Canelones</div></div>
-    <div class="rank-cat">Medio (-70kg)</div>
-    <div class="rank-rec">12–3–1</div>
-  </div>
-  <div class="rank-row">
-    <div class="rank-pos">3</div>
-    <div><div class="rank-name">Lucas Méndez</div><div class="rank-gym">Fight Club UY · Maldonado</div></div>
-    <div class="rank-cat">Pesado (-90kg)</div>
-    <div class="rank-rec">10–1–0</div>
-  </div>
-  <div class="rank-row">
-    <div class="rank-pos">4</div>
-    <div><div class="rank-name">Andrés Rocha</div><div class="rank-gym">Spartan Box · Colonia</div></div>
-    <div class="rank-cat">Ligero (-60kg)</div>
-    <div class="rank-rec">9–2–0</div>
-  </div>
-  <div class="rank-row">
-    <div class="rank-pos">5</div>
-    <div><div class="rank-name">Pablo Castro</div><div class="rank-gym">Gym WKC Centro · Montevideo</div></div>
-    <div class="rank-cat">Super Pesado (+90kg)</div>
-    <div class="rank-rec">8–3–0</div>
-  </div>
 </div>

@@ -48,33 +48,19 @@ permalink: /escuelas/
   <div class="school">
     <div class="school-top"><span class="city">Montevideo</span></div>
     <div class="school-body">
-      <h3>Gym WKC Centro</h3>
-      <div class="instr">Instructor: <strong>Carlos López</strong></div>
+      <h3>Evolution Martial Arts</h3>
+      <div class="instr">Instructor: <strong>Alexis Otegui</strong></div>
       <a href="#" class="school-wa">◆ Contactar por WhatsApp</a>
     </div>
   </div>
   <div class="school">
-    <div class="school-top"><span class="city">Canelones</span></div>
+    <div class="school-top"><span class="city">San José</span></div>
     <div class="school-body">
-      <h3>Team Águila</h3>
-      <div class="instr">Instructor: <strong>Roberto Díaz</strong></div>
+      <h3>Go Centro de entrenamiento</h3>
+      <div class="instr">Instructor: <strong>Alexis Cabrera</strong></div>
       <a href="#" class="school-wa">◆ Contactar por WhatsApp</a>
     </div>
   </div>
-  <div class="school">
-    <div class="school-top"><span class="city">Maldonado</span></div>
-    <div class="school-body">
-      <h3>Fight Club UY</h3>
-      <div class="instr">Instructor: <strong>Ana Morales</strong></div>
-      <a href="#" class="school-wa">◆ Contactar por WhatsApp</a>
-    </div>
-  </div>
-  <div class="school">
-    <div class="school-top"><span class="city">Colonia</span></div>
-    <div class="school-body">
-      <h3>Spartan Box</h3>
-      <div class="instr">Instructor: <strong>Federico Pérez</strong></div>
-      <a href="#" class="school-wa">◆ Contactar por WhatsApp</a>
-    </div>
+  
   </div>
 </div>

@@ -30,8 +30,7 @@ permalink: /nosotros/
   <h2>Nuestra misión</h2>
   <p>Profesionalizar el kickboxing uruguayo, ofreciendo a los peleadores una plataforma de competencia seria, con árbitros certificados, categorías claras y un camino de progresión que conecta el talento local con la escena sudamericana y mundial.</p>
 
-  <h2>Disciplinas reconocidas</h2>
-  <p>WKC sanciona competencias en múltiples modalidades: <strong>Full Contact</strong>, <strong>Light Contact</strong>, <strong>Point Fighting</strong> (combate por puntos sobre tatami) y <strong>Formas / Kata</strong>. Cada disciplina tiene su propio reglamento y sistema de puntuación adaptado al nivel y la edad de los competidores.</p>
+
 </div>
 
 <div class="intl">

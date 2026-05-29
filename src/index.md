@@ -162,11 +162,11 @@ permalink: /
   <div class="featured-inner">
     <div>
       <div class="featured-label">◆ Próximo evento</div>
-      <h2>WKC Uruguay<br>2026 — Fase 1</h2>
+      <h2>WKC Uruguay<br>2026 — Fecha 1</h2>
       <div class="meta">
         <div>
           <div class="k">Fecha</div>
-          <div class="v">15 JUN 2026</div>
+          <div class="v">08 AGO 2026</div>
         </div>
         <div>
           <div class="k">Sede</div>
@@ -198,24 +198,23 @@ permalink: /
       <h3>Light Contact</h3>
       <p>Mismo arsenal técnico con contacto controlado y foco en la precisión.</p>
     </div>
-    <div class="disc">
+     <div class="disc">
       <div class="num">03</div>
-      <h3>Point Fighting</h3>
-      <p>Combate por puntos sobre tatami, velocidad y técnica explosiva.</p>
+      <h3>K1</h3>
+      <p>Combate con puños, patadas y rodillazos. El estilo más espectacular y exigente del kickboxing.</p>
     </div>
     <div class="disc">
       <div class="num">04</div>
-      <h3>Formas / Kata</h3>
-      <p>Demostración técnica de secuencias coreografiadas y armas tradicionales.</p>
+      <h3>Exhibición</h3>
+      <p>Demostraciones técnicas, combates de muestra y participaciones fuera de competencia oficial.</p>
     </div>
-  </div>
 </section>
 
 <section class="section">
   <div class="stats">
     <div class="stat"><div class="n">+50</div><div class="l">Peleadores</div></div>
-    <div class="stat"><div class="n">12</div><div class="l">Escuelas afiliadas</div></div>
-    <div class="stat"><div class="n">4</div><div class="l">Eventos por año</div></div>
+    <div class="stat"><div class="n">2</div><div class="l">Escuelas afiliadas</div></div>
+    <div class="stat"><div class="n">3</div><div class="l">Eventos por año</div></div>
     <div class="stat"><div class="n">+40</div><div class="l">Países WKC</div></div>
   </div>
 </section>

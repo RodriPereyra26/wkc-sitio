@@ -134,7 +134,6 @@ form.addEventListener('submit', async (e) => {
       if (response.ok) {
         document.getElementById('successMsg').classList.add('show');
         setTimeout(() => {
-          alert('¡Inscripción registrada! El organizador se contactará con vos.');
           form.reset();
           document.getElementById('successMsg').classList.remove('show');
           fileName.textContent = '◆ Cargá tu ficha médica en PDF';
