@@ -19,13 +19,15 @@ permalink: /escuelas/
 }
 .school:hover { transform: translateY(-6px); border-color: var(--gold); }
 .school-top {
-  height: 120px;
+  height: 180px;
   background: radial-gradient(circle at 70% 30%, rgba(200,162,74,0.2), transparent 60%), linear-gradient(135deg, #1a1a1a, #0a0a0a);
+  background-size: cover;
+  background-position: center;
   border-bottom: 1px solid var(--border);
   display: flex; align-items: flex-end; padding: 16px;
 }
 .school-top .city { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); font-size: 14px; }
-.school-body { padding: 22px; }
+.school-body { padding: 18px; }
 .school-body h3 { font-size: 22px; margin-bottom: 6px; }
 .school-body .instr { color: var(--gray); font-size: 14px; margin-bottom: 16px; }
 .school-body .instr strong { color: var(--gray-light); }
@@ -46,11 +48,13 @@ permalink: /escuelas/
 
 <div class="school-grid">
   <div class="school">
-    <div class="school-top"><span class="city">Montevideo</span></div>
+    <div class="school-top" style="background-image: url('/assets/img/escuelas/evolution.webp'); background-size: cover; background-position: center;">
+  <span class="city">Montevideo</span>
+</div>
     <div class="school-body">
       <h3>Evolution Martial Arts</h3>
       <div class="instr">Instructor: <strong>Alexis Otegui</strong></div>
-      <a href="#" class="school-wa">◆ Contactar por WhatsApp</a>
+      <a href="https://wa.me/59894437091" class="school-wa">◆ Contactar por WhatsApp</a>
     </div>
   </div>
   <div class="school">

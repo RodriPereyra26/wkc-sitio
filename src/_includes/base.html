@@ -29,6 +29,18 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/assets/img/wkc_logo.avif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 55%;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+}
 h1, h2, h3, h4, .display {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
@@ -265,10 +277,9 @@ footer {
     <div>
       <h4>Contacto</h4>
       <div class="footer-links">
-        <a href="/inscripcion/">Inscribirse</a>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-        <a href="#">WhatsApp</a>
+        <a href="https://www.instagram.com/wkcuruguay/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/WkcUruguay/" target="_blank">Facebook</a>
+        <a href="https://wa.me/598XXXXXXXXX" target="_blank">WhatsApp</a>
       </div>
     </div>
   </div>

@@ -44,4 +44,5 @@ permalink: /rankings/
   <div class="rank-row head">
     <span>Pos</span><span>Peleador</span><span>Categoría</span><span>Récord</span>
   </div>
+  <!-- agregar peleadores después del primer evento -->
 </div>

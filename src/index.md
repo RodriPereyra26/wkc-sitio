@@ -174,7 +174,7 @@ permalink: /
         </div>
         <div>
           <div class="k">Categorías</div>
-          <div class="v">5 pesos</div>
+          <div class="v">15 pesos</div>
         </div>
       </div>
       <a href="/eventos/" class="btn">Ver detalles e inscripción</a>
@@ -190,24 +190,20 @@ permalink: /
   <div class="disc-grid">
     <div class="disc">
       <div class="num">01</div>
-      <h3>Full Contact</h3>
-      <p>Golpes de puño y pierna por encima de la cintura, con contacto pleno.</p>
+      <h3>Kickboxing</h3>
+      <p>Combate con puños y patadas por encima de la cintura, bajo reglamento WKC internacional.</p>
     </div>
     <div class="disc">
       <div class="num">02</div>
-      <h3>Light Contact</h3>
-      <p>Mismo arsenal técnico con contacto controlado y foco en la precisión.</p>
-    </div>
-     <div class="disc">
-      <div class="num">03</div>
       <h3>K1</h3>
-      <p>Combate con puños, patadas y rodillazos. El estilo más espectacular y exigente del kickboxing.</p>
+      <p>Combate con puños, patadas y rodillazos. El estilo más espectacular y exigente del kickboxing moderno.</p>
     </div>
     <div class="disc">
-      <div class="num">04</div>
-      <h3>Exhibición</h3>
-      <p>Demostraciones técnicas, combates de muestra y participaciones fuera de competencia oficial.</p>
+      <div class="num">03</div>
+      <h3>Muay Thai</h3>
+      <p>Arte marcial tailandés con ocho superficies de contacto: puños, codos, rodillas y patadas.</p>
     </div>
+  </div>
 </section>
 
 <section class="section">
@@ -215,7 +211,7 @@ permalink: /
     <div class="stat"><div class="n">+50</div><div class="l">Peleadores</div></div>
     <div class="stat"><div class="n">2</div><div class="l">Escuelas afiliadas</div></div>
     <div class="stat"><div class="n">3</div><div class="l">Eventos por año</div></div>
-    <div class="stat"><div class="n">+40</div><div class="l">Países WKC</div></div>
+    <div class="stat"><div class="n">36</div><div class="l">Países WKC</div></div>
   </div>
 </section>
 
