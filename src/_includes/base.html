@@ -28,18 +28,13 @@ body {
   color: var(--gray-light);
   line-height: 1.6;
   overflow-x: hidden;
-}
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
   background-image: url('/assets/img/wkc_logo.avif');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 30%;
   background-size: max(55%, 320px);
-  opacity: 0.06;
-  pointer-events: none;
-  z-index: 0;
+  background-color: /* el color de fondo que ya tenés */;
+  background-image: url('/assets/img/wkc_logo.avif');
+  background-blend-mode: luminosity;  
 }
 h1, h2, h3, h4, .display {
   font-family: 'Oswald', sans-serif;
