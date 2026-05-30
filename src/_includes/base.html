@@ -28,13 +28,26 @@ body {
   color: var(--gray-light);
   line-height: 1.6;
   overflow-x: hidden;
+}
+.page-wrapper {
+  position: relative;
+}
+
+.page-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max(55%, 320px);
+  aspect-ratio: 1;
   background-image: url('/assets/img/wkc_logo.avif');
   background-repeat: no-repeat;
-  background-position: center 30%;
-  background-size: max(55%, 320px);
-  background-color: /* el color de fondo que ya tenés */;
-  background-image: url('/assets/img/wkc_logo.avif');
-  background-blend-mode: luminosity;  
+  background-position: center center;
+  background-size: contain;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
 }
 h1, h2, h3, h4, .display {
   font-family: 'Oswald', sans-serif;
@@ -233,7 +246,7 @@ footer {
 </style>
 </head>
 <body>
-
+<div class="page-wrapper">
 <nav class="nav">
   <a href="/" class="nav-logo">WKC URUGUAY</a>
   <button class="hamburger" id="hamburger" aria-label="Abrir menú">
@@ -282,7 +295,7 @@ footer {
     © 2026 WKC Uruguay. Todos los derechos reservados.
   </div>
 </footer>
-
+</div> 
 <script>
   const hamburger = document.getElementById('hamburger');
   const menu = document.getElementById('menu');
