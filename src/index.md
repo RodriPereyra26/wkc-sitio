@@ -65,7 +65,7 @@ permalink: /
   padding: 64px 28px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  gap: 40px;
   align-items: center;
 }
 .featured-label {
@@ -82,23 +82,25 @@ permalink: /
 .featured .meta .k { font-size: 13px; color: var(--gray); text-transform: uppercase; letter-spacing: 0.1em; }
 .featured .meta .v { font-family: 'Oswald', sans-serif; font-size: 22px; color: #fff; }
 .featured-visual {
-  aspect-ratio: 4/3;
-  background:
-    radial-gradient(circle at 50% 40%, rgba(200,162,74,0.18), transparent 60%),
-    linear-gradient(135deg, #1a1a1a, #0a0a0a);
+  aspect-ratio: 1170 / 1584;   /* match exacto del flyer (vertical) */
+  width: 100%;
+  max-width: 380px;            /* evita que el póster se agigante en la columna */
+  justify-self: center;        /* lo centra dentro de su columna */
   border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   position: relative;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
-.featured-visual .big {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: clamp(60px, 12vw, 120px);
-  color: rgba(200,162,74,0.15);
-  letter-spacing: -0.02em;
+.featured-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* no recorta: el ratio ya calza con el flyer */
+  display: block;
+  image-rendering: auto;   /* ya debería ser default, pero forzalo */
+  -webkit-font-smoothing: antialiased; /* no aplica a img pero no daña */
 }
+
 
 /* ===== DISCIPLINES ===== */
 .disc-grid {
@@ -180,8 +182,9 @@ permalink: /
       <a href="/eventos/" class="btn">Ver detalles e inscripción</a>
     </div>
     <div class="featured-visual">
-      <div class="big">WKC</div>
-    </div>
+       <img src="/assets/img/wkc-fecha1.webp"
+          alt="Flyer WKC Uruguay 2026 — Fecha 1 · 8 de agosto, Montevideo">
+</div>
   </div>
 </section>
 
